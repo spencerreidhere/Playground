@@ -73,10 +73,6 @@ public class Functional {
 		
 		users.stream().filter((User user) -> user.getAge() > 10).collect(Collectors.toList());
 		
-		
-		users.forEach(action);
-		
-		
 	}
 
 }
